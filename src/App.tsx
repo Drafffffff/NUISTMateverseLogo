@@ -51,11 +51,9 @@ function App() {
       "-=1000"
     );
   }, [0]);
-
   function rotate() {
     // tl.play();
   }
-
   function rx() {
     console.log("x:", xv.current?.value);
     anime({
@@ -166,13 +164,10 @@ function App() {
           {/* <div className="cube__face cube__face--top">top</div> */}
           {/* <div className="cube__face cube__face--bottom">bottom</div> */}
         </div>
-
-    
-
       </div>
       <div className="title">
-          <img src="/title.png" alt="title" width={"400"}/>
-        </div>
+        <img src="/title.png" alt="title" width={"400"} />
+      </div>
     </div>
   );
 }
